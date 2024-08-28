@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gEo-rp-iJS">
-                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ColorCell" id="kJg-ou-YwU">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ColorCell" id="kJg-ou-YwU">
                                         <rect key="frame" x="0.0" y="50" width="393" height="47.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kJg-ou-YwU" id="tku-uO-B2A">
@@ -38,8 +38,8 @@
                         <viewLayoutGuide key="safeArea" id="Hhk-8C-NIO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="gEo-rp-iJS" secondAttribute="bottom" id="Aoj-Pi-u3W"/>
                             <constraint firstItem="gEo-rp-iJS" firstAttribute="leading" secondItem="Hhk-8C-NIO" secondAttribute="leading" id="CoB-8b-q4C"/>
-                            <constraint firstItem="Hhk-8C-NIO" firstAttribute="bottom" secondItem="gEo-rp-iJS" secondAttribute="bottom" id="H4d-KR-5JO"/>
                             <constraint firstItem="Hhk-8C-NIO" firstAttribute="trailing" secondItem="gEo-rp-iJS" secondAttribute="trailing" id="JER-z6-Lul"/>
                             <constraint firstItem="gEo-rp-iJS" firstAttribute="top" secondItem="Hhk-8C-NIO" secondAttribute="top" id="m47-Lr-4sk"/>
                         </constraints>
