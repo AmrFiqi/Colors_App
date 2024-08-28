@@ -24,20 +24,14 @@ class ColorsTableVC: UIViewController {
     
     func createRandomColors() {
         for _ in 0..<50 {
-            colors.append(generateRandomColor())
+            colors.append(UIColor.random())
         }
-    }
-    
-    func generateRandomColor() -> UIColor {
-        let randomColor = UIColor(red: CGFloat.random(in: 0...1.0), green: CGFloat.random(in: 0...1.0), blue: CGFloat.random(in: 0...1.0), alpha: 1)
-        return randomColor
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let targetVC = segue.destination as! ColorsDetailVC
         targetVC.color = sender as? UIColor
     }
-    
 }
 
 // MARK: - Extension
