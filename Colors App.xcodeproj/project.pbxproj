@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E5D529082C7F4113007F7610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D529072C7F4113007F7610 /* AppDelegate.swift */; };
 		E5D5290A2C7F4113007F7610 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D529092C7F4113007F7610 /* SceneDelegate.swift */; };
-		E5D5290C2C7F4113007F7610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D5290B2C7F4113007F7610 /* ViewController.swift */; };
 		E5D5290F2C7F4113007F7610 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E5D5290E2C7F4113007F7610 /* Base */; };
 		E5D529112C7F4115007F7610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D529102C7F4115007F7610 /* Assets.xcassets */; };
 		E5D529142C7F4115007F7610 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E5D529132C7F4115007F7610 /* Base */; };
+		E5D5291C2C7F44D3007F7610 /* ColorsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D5291B2C7F44D3007F7610 /* ColorsTableVC.swift */; };
+		E5D5291E2C7F49C3007F7610 /* ColorsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D5291D2C7F49C3007F7610 /* ColorsDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5D529042C7F4113007F7610 /* Colors App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colors App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D529072C7F4113007F7610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5D529092C7F4113007F7610 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E5D5290B2C7F4113007F7610 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5D5290E2C7F4113007F7610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5D529102C7F4115007F7610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5D529132C7F4115007F7610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5D529152C7F4115007F7610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D5291B2C7F44D3007F7610 /* ColorsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVC.swift; sourceTree = "<group>"; };
+		E5D5291D2C7F49C3007F7610 /* ColorsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				E5D529072C7F4113007F7610 /* AppDelegate.swift */,
 				E5D529092C7F4113007F7610 /* SceneDelegate.swift */,
-				E5D5290B2C7F4113007F7610 /* ViewController.swift */,
 				E5D5290D2C7F4113007F7610 /* Main.storyboard */,
 				E5D529102C7F4115007F7610 /* Assets.xcassets */,
 				E5D529122C7F4115007F7610 /* LaunchScreen.storyboard */,
 				E5D529152C7F4115007F7610 /* Info.plist */,
+				E5D5291B2C7F44D3007F7610 /* ColorsTableVC.swift */,
+				E5D5291D2C7F49C3007F7610 /* ColorsDetailVC.swift */,
 			);
 			path = "Colors App";
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D5290C2C7F4113007F7610 /* ViewController.swift in Sources */,
+				E5D5291C2C7F44D3007F7610 /* ColorsTableVC.swift in Sources */,
+				E5D5291E2C7F49C3007F7610 /* ColorsDetailVC.swift in Sources */,
 				E5D529082C7F4113007F7610 /* AppDelegate.swift in Sources */,
 				E5D5290A2C7F4113007F7610 /* SceneDelegate.swift in Sources */,
 			);
